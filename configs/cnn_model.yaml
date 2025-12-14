@@ -1,0 +1,6 @@
+model_type: "cnn"
+architecture:
+  input_channels: 3
+  num_classes: 5
+  base_filters: 32
+  dropout: 0.3

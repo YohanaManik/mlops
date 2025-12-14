@@ -1,0 +1,8 @@
+raw_data_path: "data/raw"
+processed_path: "data/processed"
+classes:
+  - daisy
+  - dandelion
+  - rose
+  - sunflower
+  - tulip

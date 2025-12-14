@@ -1,0 +1,6 @@
+model_type: "resnet"
+architecture:
+  variant: "resnet18"  # resnet18, resnet34, resnet50
+  num_classes: 5
+  pretrained: true
+  freeze_backbone: false

@@ -1,0 +1,13 @@
+image_size: [224, 224]
+normalize:
+  mean: [0.485, 0.456, 0.406]  # ImageNet stats
+  std: [0.229, 0.224, 0.225]
+split_ratio:
+  train: 0.7
+  val: 0.15
+  test: 0.15
+seed: 42
+augmentation:
+  horizontal_flip: true
+  rotation: 15
+  color_jitter: 0.2
